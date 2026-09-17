@@ -15,13 +15,13 @@ const avatar = (i) => `https://i.pravatar.cc/80?img=${i}`;
    ========================================================== */
 const DATA = {
   admin: {
-    name: "Hamza Sheikh",
-    email: "admin@technova.io",
+    name: "Imamaali",
+    email: "imamaali045@gmail.com",
     role: "Super Admin",
     experience: "9 years managing e-learning platforms",
     phone: "+92 300 1234567",
     photo: avatar(68),
-  },
+  },    
 
   /* --- 8 statistics cards --- */
   stats: [

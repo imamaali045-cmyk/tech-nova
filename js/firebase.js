@@ -25,8 +25,9 @@ import {
   orderBy,
   serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
+import { ... } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
 
-     const firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyBYHOZBNnPUfe-6A_whxjCCuN53pBYf-sc",
     authDomain: "technova-9e57e.firebaseapp.com",
     projectId: "technova-9e57e",
@@ -34,8 +35,7 @@ import {
     messagingSenderId: "631133485801",
     appId: "1:631133485801:web:78dacc3ebe76f903750e78",
     measurementId: "G-E1MY3W481L"
-  };
-
+};
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
